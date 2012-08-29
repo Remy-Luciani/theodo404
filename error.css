@@ -1,0 +1,53 @@
+header
+{
+    height: 7em;
+    background-color: white;
+}
+
+.content
+{
+    border: solid 1px;
+    border-radius: 10px;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    background: #13dc78;
+}
+
+body
+{
+    display: inline;
+	/* Old browsers */
+	background: #3399cc url("background.png") repeat-y left;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	/* True browsers */
+	background: -webkit-gradient(
+		linear,
+		left bottom, right top,
+		from(#aaeeff),
+		to(#3399cc)
+	);
+	background: -webkit-linear-gradient(
+		left bottom,
+		#aaeeff,
+		#3399cc
+	);
+	background: -moz-linear-gradient(
+		left bottom,
+		#aaeeff,
+		#3399cc
+	);
+	background: -o-linear-gradient(
+		left bottom,
+		#aaeeff,
+		#3399cc
+	);
+	background: linear-gradient(
+		left bottom,
+		#aaeeff,
+		#3399cc
+	);
+}
